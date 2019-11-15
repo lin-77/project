@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>详情页-腾讯官方周边商城</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/lkq-home2.css">
+    <link rel="stylesheet" href="css/lkq-common.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="lkq-top-bar">
+        <div class="lkq-top_0">
+            <div class="lkq-top_1">
+                <div class="lkq-top_2">
+                    <div class="lkq-top lkq-Layout">
+                        <!-- 顶部 -->
+                        <div class="lkq-top-info clearfix">
+                            <!-- logo -->
+                            <div class="lkq-logo">
+                                <a href="#">
+                                    <h1 class="lkq-ico-comm">聚城品</h1>
+                                </a>
+                            </div>
+                            <div class="lkq-solgan lkq-ico-comm">可以触摸的欢乐时光</div>
+                            <!-- 购物车 -->
+                            <div class="lkq-cart1">
+                                <a href="./shopCart.html" class="lkq-cartbox">
+                                    <i class="lkq-ico-comm lkq-cart2"></i>
+                                    <span>购物车<div class="lkq-cart-num">0</div></span>
+                                </a>
+                            </div>
+                            <!-- 登陆 -->
+                            <div class="lkq-loginbar">
+                                <!-- 登陆前 -->
+                                <div class="lkq-unlogin">
+                                    <i class="lkq-person lkq-ico-comm"></i>
+                                    <a href="#">立即登陆</a>
+                                </div>
+                                <!-- 登陆后 -->
+                                <div class="lkq-Land">
+                                    <p>欢迎光临 <span class="lkq-name"></span></p>
+                                    <!-- 登陆后的菜单 -->
+                                    <div class="lkq-menu">
+                                        <div class="lkq-arrow"></div>
+                                        <ul>
+                                            <li>
+                                                <i class="lkq-order1 lkq-ico-comm"></i>
+                                                <span>订单管理</span>
+                                            </li>
+                                            <li>
+                                                <i class="lkq-order2 lkq-ico-comm"></i>
+                                                <span>地址管理</span>
+                                            </li>
+                                            <li>
+                                                <i class="lkq-order3 lkq-ico-comm"></i>
+                                                <span>优惠卡劵</span>
+                                            </li>
+                                            <li>
+                                                <i class="lkq-order4 lkq-ico-comm"></i>
+                                                <span>我的收藏</span>
+                                            </li>
+                                            <li>
+                                                <i class="lkq-order5 lkq-ico-comm"></i>
+                                                <span>订阅管理</span>
+                                            </li>
+                                            <li>
+                                                <i class="lkq-order6 lkq-ico-comm"></i>
+                                                <span>领取中心</span>
+                                            </li>
+                                            <li class="lkq-list">
+                                                <i class="lkq-order7 lkq-ico-comm"></i>
+                                                <span>退出登陆</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 搜索 -->
+                            <div class="lkq-search">
+                                <a href="#" class="lkq-search1 lkq-ico-comm"></a>
+                                <input type="text" placeholder="请输入想要找的宝贝" class="lkq-txt">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 导航 -->
+            <div class="lkq-top-head">
+                <div class="lkq-top-head2">
+                    <div class="lkq-top-menu clearfix lkq-Layout">
+                        <ul>
+                            <li>
+                                <a href="./lkq-homepage.html" class="lkq-ico-comm">首页</a>
+                            </li>
+                            <li>
+                                <a href="#" class="lkq-ico-comm">限时折扣</a>
+                            </li>
+                            <li>
+                                <a href="#" class="lkq-ico-comm">聚豆抵扣</a>
+                            </li>
+                            <li>
+                                <a href="#" class="lkq-ico-comm">定制专区</a>
+                            </li>
+                            <li>
+                                <a href="#" class="lkq-ico-comm">聚发现</a>
+                            </li>
+                        </ul>
+                        <div class="lkq-all">
+                            <span>全部商品分类</span>
+                            <i class="lkq-arrbot lkq-ico-comm"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 子菜单 -->
+            <div class="lkq-Submenu">
+                <div class="lkq-Layout">
+                    <ul class="lkq-submenu-ul">
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img01.png" alt="">
+                                <p>服饰鞋帽</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>卫衣/外套</li>
+                                <li>T恤</li>
+                                <li>袜子</li>
+                                <li>裤子</li>
+                                <li>鞋子</li>
+                                <li>帽子</li>
+                                <li>服饰配件</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img02.png" alt="">
+                                <p>玩具毛绒</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>公仔</li>
+                                <li>抱枕</li>
+                                <li>手办</li>
+                                <li>雕塑</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img03.png" alt="">
+                                <p>数码配件</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>手机壳</li>
+                                <li>充电宝</li>
+                                <li>鼠标垫/鼠标</li>
+                                <li>U盘</li>
+                                <li>数据线</li>
+                                <li>打火机</li>
+                                <li>无线充电器</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img04.png" alt="">
+                                <p>生活用品</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>杯子</li>
+                                <li>钥匙扣</li>
+                                <li>伞</li>
+                                <li>耳罩/眼罩</li>
+                                <li>美妆个护</li>
+                                <li>其他</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img05.png" alt="">
+                                <p>箱包收纳</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>双肩包</li>
+                                <li>单肩包</li>
+                                <li>收纳包</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img06.png" alt="">
+                                <p>首饰配饰</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>手链</li>
+                                <li>项链</li>
+                                <li>挂件</li>
+                                <li>戒指</li>
+                                <li>其他</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img07.png" alt="">
+                                <p>文具图书</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>笔记本</li>
+                                <li>胶带/贴纸</li>
+                                <li>文件夹</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img08.png" alt="">
+                                <p>休闲零食</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>糖/巧克力</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img09.png" alt="">
+                                <p>海报艺术</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>画册</li>
+                                <li>海报</li>
+                            </ul>
+                        </li>
+                        <li class="lkq-submenu-li">
+                            <a href="#">
+                                <img src="images/header/img10.png" alt="">
+                                <p>其他</p>
+                            </a>
+                            <ul class="lkq-class-list">
+                                <li>纪念币</li>
+                                <li>礼盒</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 登陆模板 -->
+    <div class="lkq-login">
+        <div class="lkq-login_1">
+            <div class="lkq-login-btn">
+                <button class="lkq-btn1 lkq-btn">登陆</button>
+                <button class="lkq-btn2 lkq-btn">注册</button>
+                <button class="lkq-btn3">X</button>
+            </div>
+            <div class="lkq-form">
+                <span>昵称密码登陆</span>
+                <h4 class="lkq-con1"></h4>
+                <div class="lkq-box">
+                    <input type="text" class="lkq-text lkq-user1" placeholder="昵称">
+                </div>
+                <div class="lkq-box">
+                    <input type="text" class="lkq-text lkq-pass1" placeholder="密码">
+                </div>
+                <div class="lkq-remember">
+                    记住密码 <input type="checkbox" name="sub" class="lkq-check"><br>
+                </div>
+                <input type="button" value="登陆" name="login" class="lkq-lands">
+            </div>
+            <div class="lkq-register">
+                <span>输入昵称密码注册</span>
+                <h4 class="lkq-con2"></h4>
+                <div class="lkq-box">
+                    <input type="text" class="lkq-text lkq-user2" placeholder="昵称">
+                </div>
+                <div class="lkq-box">
+                    <input type="text" class="lkq-text lkq-pass2" placeholder="密码">
+                </div>
+                <input type="button" value="注册" name="add" class="lkq-reg">
+            </div>
+        </div>
+    </div>
+    <!-- 中间部分 -->
+    <div class="wrap">
+        <div class="mainwrap">
+            <!-- 标题 -->
+            <h3>商城首页&gt;模型手办&gt;枪模&gt;<span class="Title-name">M4A1-雷神 枪模手办</span></h3>
+            <!-- 商品展示 -->
+            <div class="detail_main">
+                <div class="commodity">
+                    <!-- 放大镜 -->
+                    <div class="magnifier">
+                        <div class="good-imgs">
+                            <!-- <div class="mark lkq-ico-comm">
+                                <span class="mark-txt">经典再版</span>
+                            </div> -->
+                            <!-- <img src="images/goods/img-1.jpg" alt="" class="largeimg"> -->
+                            <div class="mask"></div>
+                        </div>
+                        <!-- 下面的小图 -->
+                        <div class="picdetails">
+                            <!-- <ul class="clearfix">
+                                <li class="active">
+                                    <a href="###">
+                                        <img src="images/goods/img-1.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="###">
+                                        <img src="images/goods/img-2.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="###">
+                                        <img src="images/goods/img-3.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="###">
+                                        <img src="images/goods/img-4.jpg" alt="">
+                                    </a>
+                                </li>
+                            </ul> -->
+                        </div>
+                        <!-- 放大的图 -->
+                        <div class="enlarge">
+                            <!-- <img src="images/goods/img_1.jpg" alt="">
+                            <img src="images/goods/img_2.jpg" alt="">
+                            <img src="images/goods/img_3.jpg" alt="">
+                            <img src="images/goods/img_4.jpg" alt=""> -->
+                        </div>
+                    </div>
+                    <!-- 商品信息 -->
+                    <div class="product-info">
+                        <div class="pord-theme">
+                            <!-- <h3 class="pord-name">M4A1-雷神 枪模手办</h3>
+                            <p class="pord-tips">主题收集-每集齐一套可领取期限英雄级和优惠券</p> -->
+                        </div>
+                        <!-- 价格 -->
+                        <div class="pord-price clearfix">
+                            <!-- <span class="pord-dispri">￥<strong>298.00</strong></span>
+                            <span class="pord-orpri">￥320.00</span> -->
+                        </div>
+                        <!-- VIP -->
+                        <div class="pord-saleinfo clearfix">
+                            <div class="pord-salebox">
+                                <i class="icon-vip ico-detail"></i>
+                                <span>VIP优惠￥29.80</span>
+                            </div>
+                        </div>
+                        <!-- 赠品 -->
+                        <div class="pord-gift clearfix">
+                            <i class="gift-mark">赠品</i>
+                            <span>主题收集-雷神枪模</span>
+                        </div>
+                        <!-- 已售 -->
+                        <div class="pord-detailbox clearfix">
+                            <div class="pord-sold">
+                                已售: 666
+                            </div>
+                            <div class="pord-totalcom">
+                                累计评价: 233
+                            </div>
+                            <div class="pord-starbox">
+                                <i class="ico-detail i-star10"></i>
+                                <span>5.0</span>
+                            </div>
+                        </div>
+                        <!-- 枪模 -->
+                        <div class="main_spec">
+                            <div class="pord-sellist clearfix">
+                                <label>枪模</label>
+                                <ul class="m128">
+                                    <li class="current">
+                                        <div class="pord-selbox">雷神</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 数量加入购物车 -->
+                        <div class="main_btn">
+                            <div class="pord-num">
+                                <label>数量</label>
+                                <div class="m142">
+                                    <a href="###" class="num-reduce numbtn">
+                                        <i class="ico-detail">-</i>
+                                    </a>
+                                    <input type="text" class="input-txt" value="1">
+                                    <a href="###" class="num-plus numbtn">
+                                        <i class="ico-detail">+</i>
+                                    </a>
+                                </div>
+                                <span class="pord-stock">(库存充足)</span>
+                            </div>
+                            <div class="pord-btn clearfix">
+                                <a href="###" class="joincart-btn">加入购物车</a>
+                                <a href="###" class="purchase-btn">立即购买</a>
+                                <a href="###" class="btn-collect">
+                                    <i class="ico-detail ico-collect"></i>
+                                    <span>收藏</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 商品具体相关信息 -->
+            <div class="porduct-detail">
+                <div class="pord-tab">
+                    <ul>
+                        <li>
+                            商品详情
+                            <i class="i-tabline"></i>
+                        </li>
+                        <li>
+                            用户点评(233)
+                            <i class=""></i>
+                        </li>
+                        <li>
+                            联系商家
+                            <i class=""></i>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 商品详情 -->
+                <div class="tabcont">
+                    <!-- 单品详细参数 -->
+                    <div class="pord-detail">
+                        <div class="parameter">
+                            <ul class="clearfix">
+                                <li>
+                                    <label class="fl">商品名称</label>
+                                    <span class="fl par-name">M4A1-雷神 枪模手办</span>
+                                </li>
+                                <li>
+                                    <label class="fl">店铺</label>
+                                    <span class="fl">合泰文化</span>
+                                </li>
+                                <li>
+                                    <label class="fl">上架时间</label>
+                                    <span class="fl">2019-11-07</span>
+                                </li>
+                                <li>
+                                    <label class="fl">商品重量</label>
+                                    <span class="fl par-name">480g</span>
+                                </li>
+                                <li>
+                                    <label class="fl">商城</label>
+                                    <span class="fl par-name mr70">穿越火线</span>
+                                </li>
+                                <li>
+                                    <label class="fl">周边分类</label>
+                                    <span class="fl par-name mr70">模型手办 /枪模</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- 单品详情图 -->
+                        <div class="detailbox">
+                            <img data-src="images/goods/ia_100000002597.jpg" alt="">
+
+                            <img data-src="images/goods/ia_100000002598.jpg" alt="">
+
+                            <img data-src="images/goods/ia_100000002599.jpg" alt="">
+
+                            <img data-src="images/goods/ia_100000002600.jpg" alt="">
+
+                            <img data-src="images/goods/ia_100000002601.jpg" alt="">
+
+                            <img data-src="images/goods/ia_100000002602.jpg" alt="">
+
+                            <img data-src="images/goods/ia_100000002603.jpg" alt="">
+
+                            <img data-src="images/goods/ia_100000002604.jpg" alt="">
+
+                            <img data-src="images/goods/ia_100000002605.jpg" alt="">
+
+                            <img data-src="images/goods/ia_100000002606.jpg" alt="">
+
+                            <img data-src="images/goods/ia_100000002607.jpg" alt="">
+
+                            <img data-src="images/goods/ia_100000002608.jpg" alt="">
+
+                            <img data-src="images/goods/ia_100000002609.jpg" alt="">
+
+                            <img data-src="images/goods/ia_100000002610.jpg" alt="">
+
+                            <img data-src="images/goods/ia_100000002611.jpg" alt="">
+
+                            <img data-src="images/goods/ia_100000002612.jpg" alt="">
+
+                            <img data-src="images/goods/ia_100000002613.jpg" alt="">
+
+                        </div>
+                    </div>
+                    <!-- 用户评价 -->
+                    <div class="pord-tad-comment">
+                        <div class="pord-comment">
+                            <div class="all-comment clearfix">
+                                <span class="fl">玩家综合评分</span>
+                                <span class="fl pord-starall">
+                                    <i class="ico-detail i-star10"></i>
+                                </span>
+                                <span class="fl all-point">5.0</span>
+                            </div>
+                            <div class="comment-list">
+                                <ul class="cent-ul clearfix">
+                                    <li>
+                                        <div class="fl headimg">
+                                            <div class="imgbox">
+                                                <img src="images/Wizardmap/img009.jpg" alt="">
+                                            </div>
+                                            <p class="qqnick">张三</p>
+                                        </div>
+                                        <div class="fl comment-text">
+                                            <div class="comment-point clearfix">
+                                                <span class="fl">商品评分</span>
+                                                <div class="fl pord-starbox">
+                                                    <i class="ico-detail i-star10"></i>
+                                                </div>
+                                                <span class="fl all-point">5.0分</span>
+                                                <div class="fr comment-time">2019-11-11 08:56:37</div>
+                                            </div>
+                                            <p class="text-detail">挺好的，很喜欢下次有好看的还买(十块钱一条)</p>
+                                            <div class="ser-reply clearfix">
+                                                <span class="fl">穿越火线官方周边商城回复：</span>
+                                                <span class="fl reply-txt">
+                                                    感谢你,钱支付宝给您转过去了,有时间再来当托!
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="fl headimg">
+                                            <div class="imgbox">
+                                                <img src="images/Wizardmap/img009.jpg" alt="">
+                                            </div>
+                                            <p class="qqnick">张三</p>
+                                        </div>
+                                        <div class="fl comment-text">
+                                            <div class="comment-point clearfix">
+                                                <span class="fl">商品评分</span>
+                                                <div class="fl pord-starbox">
+                                                    <i class="ico-detail i-star10"></i>
+                                                </div>
+                                                <span class="fl all-point">5.0分</span>
+                                                <div class="fr comment-time">2019-11-11 08:56:37</div>
+                                            </div>
+                                            <p class="text-detail">挺好的，很喜欢下次有好看的还买(十块钱一条)</p>
+                                            <div class="ser-reply clearfix">
+                                                <span class="fl">穿越火线官方周边商城回复：</span>
+                                                <span class="fl reply-txt">
+                                                    感谢你,钱支付宝给您转过去了,有时间再来当托!
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="fl headimg">
+                                            <div class="imgbox">
+                                                <img src="images/Wizardmap/img009.jpg" alt="">
+                                            </div>
+                                            <p class="qqnick">张三</p>
+                                        </div>
+                                        <div class="fl comment-text">
+                                            <div class="comment-point clearfix">
+                                                <span class="fl">商品评分</span>
+                                                <div class="fl pord-starbox">
+                                                    <i class="ico-detail i-star10"></i>
+                                                </div>
+                                                <span class="fl all-point">5.0分</span>
+                                                <div class="fr comment-time">2019-11-11 08:56:37</div>
+                                            </div>
+                                            <p class="text-detail">挺好的，很喜欢下次有好看的还买(十块钱一条)</p>
+                                            <div class="ser-reply clearfix">
+                                                <span class="fl">穿越火线官方周边商城回复：</span>
+                                                <span class="fl reply-txt">
+                                                    感谢你,钱支付宝给您转过去了,有时间再来当托!
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="fl headimg">
+                                            <div class="imgbox">
+                                                <img src="images/Wizardmap/img009.jpg" alt="">
+                                            </div>
+                                            <p class="qqnick">张三</p>
+                                        </div>
+                                        <div class="fl comment-text">
+                                            <div class="comment-point clearfix">
+                                                <span class="fl">商品评分</span>
+                                                <div class="fl pord-starbox">
+                                                    <i class="ico-detail i-star10"></i>
+                                                </div>
+                                                <span class="fl all-point">5.0分</span>
+                                                <div class="fr comment-time">2019-11-11 08:56:37</div>
+                                            </div>
+                                            <p class="text-detail">挺好的，很喜欢下次有好看的还买(十块钱一条)</p>
+                                            <div class="ser-reply clearfix">
+                                                <span class="fl">穿越火线官方周边商城回复：</span>
+                                                <span class="fl reply-txt">
+                                                    感谢你,钱支付宝给您转过去了,有时间再来当托!
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="fl headimg">
+                                            <div class="imgbox">
+                                                <img src="images/Wizardmap/img009.jpg" alt="">
+                                            </div>
+                                            <p class="qqnick">张三</p>
+                                        </div>
+                                        <div class="fl comment-text">
+                                            <div class="comment-point clearfix">
+                                                <span class="fl">商品评分</span>
+                                                <div class="fl pord-starbox">
+                                                    <i class="ico-detail i-star10"></i>
+                                                </div>
+                                                <span class="fl all-point">5.0分</span>
+                                                <div class="fr comment-time">2019-11-11 08:56:37</div>
+                                            </div>
+                                            <p class="text-detail">挺好的，很喜欢下次有好看的还买(十块钱一条)</p>
+                                            <div class="ser-reply clearfix">
+                                                <span class="fl">穿越火线官方周边商城回复：</span>
+                                                <span class="fl reply-txt">
+                                                    感谢你,钱支付宝给您转过去了,有时间再来当托!
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="fl headimg">
+                                            <div class="imgbox">
+                                                <img src="images/Wizardmap/img009.jpg" alt="">
+                                            </div>
+                                            <p class="qqnick">张三</p>
+                                        </div>
+                                        <div class="fl comment-text">
+                                            <div class="comment-point clearfix">
+                                                <span class="fl">商品评分</span>
+                                                <div class="fl pord-starbox">
+                                                    <i class="ico-detail i-star10"></i>
+                                                </div>
+                                                <span class="fl all-point">5.0分</span>
+                                                <div class="fr comment-time">2019-11-11 08:56:37</div>
+                                            </div>
+                                            <p class="text-detail">挺好的，很喜欢下次有好看的还买(十块钱一条)</p>
+                                            <div class="ser-reply clearfix">
+                                                <span class="fl">穿越火线官方周边商城回复：</span>
+                                                <span class="fl reply-txt">
+                                                    感谢你,钱支付宝给您转过去了,有时间再来当托!
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="fl headimg">
+                                            <div class="imgbox">
+                                                <img src="images/Wizardmap/img009.jpg" alt="">
+                                            </div>
+                                            <p class="qqnick">张三</p>
+                                        </div>
+                                        <div class="fl comment-text">
+                                            <div class="comment-point clearfix">
+                                                <span class="fl">商品评分</span>
+                                                <div class="fl pord-starbox">
+                                                    <i class="ico-detail i-star10"></i>
+                                                </div>
+                                                <span class="fl all-point">5.0分</span>
+                                                <div class="fr comment-time">2019-11-11 08:56:37</div>
+                                            </div>
+                                            <p class="text-detail">挺好的，很喜欢下次有好看的还买(十块钱一条)</p>
+                                            <div class="ser-reply clearfix">
+                                                <span class="fl">穿越火线官方周边商城回复：</span>
+                                                <span class="fl reply-txt">
+                                                    感谢你,钱支付宝给您转过去了,有时间再来当托!
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="fl headimg">
+                                            <div class="imgbox">
+                                                <img src="images/Wizardmap/img009.jpg" alt="">
+                                            </div>
+                                            <p class="qqnick">张三</p>
+                                        </div>
+                                        <div class="fl comment-text">
+                                            <div class="comment-point clearfix">
+                                                <span class="fl">商品评分</span>
+                                                <div class="fl pord-starbox">
+                                                    <i class="ico-detail i-star10"></i>
+                                                </div>
+                                                <span class="fl all-point">5.0分</span>
+                                                <div class="fr comment-time">2019-11-11 08:56:37</div>
+                                            </div>
+                                            <p class="text-detail">挺好的，很喜欢下次有好看的还买(十块钱一条)</p>
+                                            <div class="ser-reply clearfix">
+                                                <span class="fl">穿越火线官方周边商城回复：</span>
+                                                <span class="fl reply-txt">
+                                                    感谢你,钱支付宝给您转过去了,有时间再来当托!
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="fl headimg">
+                                            <div class="imgbox">
+                                                <img src="images/Wizardmap/img009.jpg" alt="">
+                                            </div>
+                                            <p class="qqnick">张三</p>
+                                        </div>
+                                        <div class="fl comment-text">
+                                            <div class="comment-point clearfix">
+                                                <span class="fl">商品评分</span>
+                                                <div class="fl pord-starbox">
+                                                    <i class="ico-detail i-star10"></i>
+                                                </div>
+                                                <span class="fl all-point">5.0分</span>
+                                                <div class="fr comment-time">2019-11-11 08:56:37</div>
+                                            </div>
+                                            <p class="text-detail">挺好的，很喜欢下次有好看的还买(十块钱一条)</p>
+                                            <div class="ser-reply clearfix">
+                                                <span class="fl">穿越火线官方周边商城回复：</span>
+                                                <span class="fl reply-txt">
+                                                    感谢你,钱支付宝给您转过去了,有时间再来当托!
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="fl headimg">
+                                            <div class="imgbox">
+                                                <img src="images/Wizardmap/img009.jpg" alt="">
+                                            </div>
+                                            <p class="qqnick">张三</p>
+                                        </div>
+                                        <div class="fl comment-text">
+                                            <div class="comment-point clearfix">
+                                                <span class="fl">商品评分</span>
+                                                <div class="fl pord-starbox">
+                                                    <i class="ico-detail i-star10"></i>
+                                                </div>
+                                                <span class="fl all-point">5.0分</span>
+                                                <div class="fr comment-time">2019-11-11 08:56:37</div>
+                                            </div>
+                                            <p class="text-detail">挺好的，很喜欢下次有好看的还买(十块钱一条)</p>
+                                            <div class="ser-reply clearfix">
+                                                <span class="fl">穿越火线官方周边商城回复：</span>
+                                                <span class="fl reply-txt">
+                                                    感谢你,钱支付宝给您转过去了,有时间再来当托!
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 联系商家 -->
+                    <div class="pord-contact">
+                        <dl class="contact-company">
+                            <dt>商家：合泰文化</dt>
+                        </dl>
+                        <dl class="contact-method">
+                            <dt>商家联系方式</dt>
+                            <dd>
+                                <div>电话：0755-25727866</div>
+                                <div>ＱＱ：800053395</div>
+                                <div>微信：暂无</div>
+                                <div class="contact-service">
+                                    <a href="###">联系客服</a>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl class="contact-time">
+                            <dt>商家服务时间</dt>
+                            <dd>在线时间: 08:00-22:00</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 购买提示弹框 -->
+    <div class="popup">
+        <a href="###" class="popup-close">
+            <i class="comicon i-close"></i>
+        </a>
+        <div class="popup-main">
+            <h4>购物车提醒</h4>
+            <div class="popup-con">
+                <div class="popup-info clearfix">
+                    <i class="fl comicon i-tick"></i>
+                    <div class="fl popup-tip">
+                        <p class="tip-success">商品已成功添加到购物车!</p>
+                    </div>
+                </div>
+                <div class="popup-btnbox">
+                    <a href="./shopCart.html" class="fl btn-sure">确认</a>
+                    <a href="###" class="fl popup-btn">继续购物</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 已加入 -->
+    <div class="have-joined">
+        <div class="dj_pop">
+            <div class="dj_pop_alert">
+                <div class="dj_hd">
+                    <h4>温馨提示</h4>
+                    <a href="###" class="close">
+                        <i></i>
+                    </a>
+                </div>
+                <div class="dj_bd">
+                    <p>购物车已有此商品,请勿反复添加。</p>
+                    <a href="###" class="dj_bt_buy">确定</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="lkq-footer">
+        <div class="lkq-Layout clearfix">
+            <a href="###" title="道聚城" class="lkq-footer-djc">
+                <img src="images/footer/01.png" alt="">
+            </a>
+            <ul class="lkq-footer-info">
+                <li>
+                    <a href="###">
+                        <span class="lkq-ic01 lkq-comm-top"></span>
+                        配送方式
+                    </a>
+                </li>
+                <li>
+                    <a href="###">
+                        <span class="lkq-ic02 lkq-comm-top"></span>
+                        常见操作
+                    </a>
+                </li>
+                <li>
+                    <a href="###">
+                        <span class="lkq-ic03 lkq-comm-top"></span>
+                        售后服务
+                    </a>
+                </li>
+                <li>
+                    <a href="###">
+                        <span class="lkq-ic04 lkq-comm-top"></span>
+                        关于我们
+                    </a>
+                </li>
+                <li>
+                    <a href="###">
+                        <span class="lkq-ic05 lkq-comm-top"></span>
+                        购物指南
+                    </a>
+                </li>
+            </ul>
+            <ul class="lkq-footer-code">
+                <li>
+                    <img src="images/footer/02.jpg" alt="">
+                    <p>聚城品公众号</p>
+                </li>
+                <li>
+                    <img src="images/footer/03.jpg" alt="">
+                    <p>道聚城公众号</p>
+                </li>
+                <li class="lkq-pr0">
+                    <img src="images/footer/04.png" alt="">
+                    <p>掌上道聚城</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 版权 -->
+    <div class="lkq-footer_ied">
+        <div class="lkq-ied">
+            <p>
+                <a href="###">腾讯互动娱乐</a>
+                |
+                <a href="###"> 服务条款</a>
+                |
+                <a href="###"> 腾讯游戏隐私保护指引</a>
+                |
+                <a href="###"> 广告服务</a>
+                |
+                <a href="###"> 腾讯游戏招聘</a>
+                |
+                <a href="###"> 腾讯游戏客服</a>
+                |
+                <a href="###"> 游戏地图 </a>
+                |
+                <a href="###"> 成长守护平台 </a>
+                |
+                <a href="###"> 商务合作 </a>
+                |
+                <a href="###"> 网站导航 </a>
+            </p>
+            <p>COPYRIGHT © 1998 – 2019 TENCENT. ALL RIGHTS RESERVED.</p>
+            <p>
+                <a href="###">腾讯公司 版权所有</a>
+            </p>
+        </div>
+    </div>
+    <!-- 侧栏 -->
+    <div class="fixedenav">
+        <a class="fixedlink myorder" title="我的订单" href="#">
+            <i class="yh-comicon navico-order"></i>
+            <span>我的<br>订单</span>
+        </a>
+        <a class="fixedlink myaddress" title="我的地址" href="#">
+            <i class="yh-comicon navico-address"></i>
+            <span>我的<br>地址</span>
+        </a>
+        <a class="fixedlink mycart" title="我的购物车">
+            <i class="yh-comicon navico-cart"></i>
+            <span>购<br>物<br>车</span>
+            <i class="yh-comicon navico-cartnum">0</i>
+        </a>
+        <a class="fixedlink myservice" title="咨询" href="#">
+            <i class="yh-comicon navico-service"></i>
+            <span>咨询</span>
+        </a>
+    </div>
+    <div class="topnav">
+        <i class="yh-comicon btn-top"></i>
+    </div>
+</body>
+<script src="js/lkq-ajax-cookie.js"></script>
+<script src="js/lkq-common.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/lkq-details.js"></script>
+<script src="js/sidebar.js"></script>
+
+</html>

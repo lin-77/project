@@ -1,0 +1,337 @@
+body {
+	background: #eee;
+}
+
+.hth-container1280 {
+	width: 1280px;
+	margin: 0 auto;
+	background: #eee;
+	min-height: 200px;
+}
+
+.hth-container1070 {
+	width: 1070px;
+	margin: 0 auto;
+	/* background: pink; */
+	min-height: 200px;
+}
+
+.hth-title p {
+	line-height: 60px;
+	font-size: 14px;
+}
+
+.classify {
+	line-height: 50px;
+	font-size: 14px;
+	color: #999;
+}
+
+.width1280 {
+	width: 1280px;
+
+}
+
+/* hth-nav-top */
+.hth-nav-top {
+	box-sizing: border-box;
+	padding: 12px 50px 0px 50px;
+	margin-bottom: 15px;
+	background: #fff;
+	position: relative;
+
+}
+
+.navshow {
+	/* width: 100%;s */
+	width: 1180px;
+	max-height: 90px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #999;
+	padding: 11px 0;
+	border-bottom: 1px solid #eee;
+	position: relative;
+	overflow: hidden;
+	transition: all .4s linear;
+}
+
+
+.opened {
+	max-height: 25px;
+}
+.navshow .nav-btn i{
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+}
+.navshow .nav-btn .icon-normal{
+	background: url(../images/hth-goodslist/sprite1.png) no-repeat;
+	background-position: -60px 7px;
+}
+ .navshow .nav-btn .icon-fx{
+	 background: url(../images/hth-goodslist/sprite1.png) no-repeat;
+	background-position: -26px 7px;
+ }
+/*  */
+.col-black {
+	color: #333;
+	font-weight: bold;
+}
+
+.navshow-mh {
+	max-height: 27px;
+}
+
+.navshow dl {
+	width: 1115px;
+
+}
+
+.navshow dt {
+	float: left;
+	color: #999;
+	line-height: 30px;
+}
+
+.navshow dd {
+	float: left;
+	padding: 0 20px;
+	color: #666;
+	line-height: 30px;
+	cursor: pointer;
+
+}
+
+/* dd效果 */
+.navshow dd:hover {}
+
+.navshow .nav-btn {
+	color: #666;
+	position: absolute;
+	top: -1px;
+	right: 10px;
+	z-index: 2;
+}
+
+/* nav-sort */
+.nav-sort {
+	padding: 11px 0;
+}
+
+/*  */
+.nav-sort .icon-style {
+	width: 8px;
+	height: 12px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+
+.nav-sort .icon-state {
+	background: url(../images/hth-goodslist/sprite3.png) no-repeat;
+	background-position: -79px -64px;
+}
+
+.nav-sort .icon-bot {
+	background: url(../images/hth-goodslist/sprite3.png) no-repeat;
+	background-position: -150px -2px;
+}
+
+.nav-sort .icon-top {
+	background: url(../images/hth-goodslist/sprite3.png) no-repeat;
+	background-position: -67px -64px;
+}
+.nav-sort ul .show{
+	color: #333;
+	font-weight: bold;
+}
+
+/*筛选 */
+.nav-sort .goodschose .goods-check {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	background: url(../images/hth-goodslist/sprite3.png) no-repeat;
+	background-position: -2px -2px;
+	margin-right: 4px;
+}
+.nav-sort .goodschose .show {
+	font-weight: bold;
+	color: #333;
+}
+/* 效果 */
+.nav-sort .goodschose .goods-checked {
+	background-position: -22px -2px;
+}
+
+.nav-sort ul li {
+	float: left;
+	padding: 0 20px;
+	color: #666;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+/* goos-lists */
+.goods-lists {
+	margin-top: 5px;
+	background: #FFFFFF;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.goods-lists ul {
+	margin-left: 40px;
+	width: 1208px;
+	height: auto;
+}
+
+.goods-lists ul li {
+	margin: 0 10px 20px;
+	float: left;
+	width: 280px;
+	height: 356px;
+	border: 1px solid #eee;
+	position: relative;
+	z-index: 1;
+	transition: all .2s linear;
+	overflow: hidden;
+}
+
+/* 效果 */
+.goods-lists ul li:hover {
+	z-index: 2;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+	transform: translate3d(0px, -4px, 0px);
+}
+
+.goods-lists ul li .i-mark {
+	position: absolute;
+	top: -1px;
+	right: 20px;
+	z-index: 10;
+	padding: 0 10px 7px;
+	width: 28px;
+	height: 40px;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+	display: table;
+	background: url(../images/hth-goodslist/sprite3.png) no-repeat;
+	background-position: -279px -85px;
+}
+
+.goods-lists ul li .mark-txt {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 14px;
+}
+
+.goods-lists ul li img {
+	width: 280px;
+	height: 268px;
+	display: block;
+}
+
+.goods-info {
+	margin-top: 18px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.goods-info p {
+	font-size: 14px;
+	color: #444;
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 24px;
+	text-overflow: ellipsis;
+}
+
+.goods-pri {
+	line-height: 26px;
+	font-size: 16px;
+	color: #F7545f;
+}
+
+.goods-pri .old-pri {
+	padding-left: 8px;
+	font-size: 14px;
+	color: #999;
+	text-decoration: line-through;
+}
+
+/* 分页器 */
+
+.goods-lists .pager {
+	width: 1190px;
+	margin-left: 47px;
+	text-align: left;
+	padding: 30px 0;
+	font-size: 16px;
+	position: relative;
+}
+
+/* 效果 */
+.goods-lists .pager a:hover {
+	text-decoration: none;
+	border-color: #f3bf19;
+}
+
+.pager .h-pre {
+	position: absolute;
+	right: 50px;
+	top: 30px;
+}
+
+.pager .h-pre a {
+	width: 40px;
+	line-height: 38px;
+	display: inline-block;
+	height: 38px;
+	background: #fff;
+	border: 1px solid #eee;
+	text-align: center;
+	margin-left: 4px;
+	color: #5e6360;
+}
+
+.pager .h-next {
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+.pager .h-next a {
+	width: 40px;
+	line-height: 38px;
+	display: inline-block;
+	height: 38px;
+	background: #fff;
+	border: 1px solid #eee;
+	text-align: center;
+	margin-left: 4px;
+	color: #5e6360;
+}
+
+.pager .page_btn a {
+	width: 40px;
+	line-height: 38px;
+	display: inline-block;
+	height: 38px;
+	background: #fff;
+	border: 1px solid #eee;
+	text-align: center;
+	margin-left: 4px;
+	color: #5e6360;
+
+}
+
+.pager .active a {
+	background: #f3be10;
+}

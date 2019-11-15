@@ -1,0 +1,83 @@
+html,
+body,
+p,
+table,
+th,
+tbody,
+tfoot,
+tr,
+td,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+form,
+input,
+option,
+select,
+a,
+img,
+b,
+i,
+em,
+u,
+strong,
+caption,
+textarea,
+fieldset,
+legend,
+label,
+optgroup {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #F5F5F5;
+	font-size:14px ;
+	font-family: "微软雅黑";
+}
+div{
+	display: block;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;color: #b5b5b5;
+}
+
+ul li,
+ol li {
+	list-style: none;
+}
+
+input {
+	cursor: pointer;
+}
+
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	font-size: 1px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+

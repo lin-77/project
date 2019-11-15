@@ -1,0 +1,232 @@
+.w-mid{
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+.w-breadcrumb{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 120px;
+}
+.wpage-main{
+    width: 1280px;
+    margin: 0 auto;
+}
+.list-filler{
+    height: auto;
+    margin-bottom: 10px;
+    background: white;
+    padding: 10px 50px 0;
+}
+
+.fltbox{
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding: 11px 0;
+    overflow: hidden;
+    max-height:90px;
+}
+.fltbox dl{
+    width: 1115px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.fltbox .cur{
+    color: #333;
+    font-weight: bold;
+}
+.fltbox dl dt{
+    float: left;
+    color: #999;
+    line-height: 30px;
+}
+.fltbox dl dd{
+    float: left;
+    color: #666;
+    line-height: 30px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.fltbox .btn-filter{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    font-size: 14px;
+    color: #666;
+}
+.fltbox .btn-filter .top {
+    display: inline-block;
+    width: 8px;
+    height: 6px;
+    background-position: -79px -64px;
+    vertical-align: middle;
+}
+.fltbox .btn-filter .i-btntop{
+    display: inline-block;
+    width: 8px;
+    height: 6px;
+    background-position: -79px -64px;
+    vertical-align: middle;
+}
+.fltbox{
+    width: 100%;
+    position: relative;
+    padding: 11px 0;
+    overflow: hidden;
+    max-height:90px;
+   
+    transition: all .4s linear;
+}
+.sort-filter{
+    border-bottom: none;
+}
+.fltbox .sortdl{
+    width: auto;
+}
+
+.fl{
+    float: left;
+}
+.fltbox dl dt{
+    float: left;
+    color: #999;
+    line-height: 30px;
+}
+.fltbox .cur{
+    color: #333;
+    font-weight: bold;
+}
+.fltbox .i-arrgray {
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+    background-position: -79px -64px;
+    vertical-align: middle;
+}
+.fltbox .flt-arrow .flt-top{
+    background-position: -67px -64px;
+}
+.fltbox .flt-arrow .flt-bottom{
+    background-position: -150px -2px;
+}
+.fltbox dl dd{
+    float: left;
+    line-height: 30px;
+    color: #666;
+    cursor: pointer;
+    padding:0 20px;
+}
+.fltbox .sortdl{
+    width: auto;
+}
+.fltbox dl{
+    height: auto;
+    font-size: 14px;
+
+}
+.fr{
+    float:right;
+}
+.fltbox dl dt{
+    float:left;
+    color: #999;
+    line-height: 30px;
+
+}
+.fltbox dl dd{
+    float:left;
+    /* color: #999; */
+    line-height: 30px;
+    padding: 0 20px;
+}
+.ico-comm{
+    background: url(../images/windex/ico-comm.png) no-repeat;
+}
+.fltbox .i-check{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background-position: -2px -2px;
+}
+.good-list{
+    padding-top:40px;
+    padding-bottom:20px;
+    color: #fff;
+    background: #fff;
+    width: 1280px;
+    margin: 0 auto;
+
+}
+.good-list ul{
+    margin-left: 40px;
+    width: 1208px;
+    height: auto;
+    
+}
+.good-list ul li:hover{
+    transform: translate3d(0px,-2px,0px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+    transition: all .2s linear;
+}
+.good-list ul li{
+    float: left;
+    overflow: hidden;
+    margin: 0 10px 20px;
+    width: 280px;
+    height: 356px;
+    z-index: 1;
+    border: 1px solid #eee;
+    position: relative;
+    transition: all .2s linear;
+
+}
+.good-list ul li .mark-txt{
+    display: table;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 14px;
+}
+.good-list ul li img{
+    display:block;
+}
+.good-list ul li .good-info{
+    margin-top: 18px;
+    overflow: hidden;
+    text-align: center;
+}
+.good-list ul li .good-name{
+    font-size: 14px;
+    color: #444;
+}
+.good-list ul li p{
+    overflow: hidden;
+    line-height: 24px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.good-list ul li .good-pri{
+    line-height: 25px;
+    font-size: 16px;
+    color: red;
+}
+.good-list ul li .good-pri .jd-num{
+    color: red;
+    font-size: 18px;
+}
+.good-list ul li .good-pri .jd-union{
+    font-size: 12px;
+    color:#666;
+}
+.good-list ul li .good-pri .jd-money{
+    color: red;
+    font-size: 18px;
+}
+.good-list ul li .good-pri .old-pri{
+    font-size: 14px;
+    color: #999;
+    text-decoration:line-through;
+    padding-left: 8px;
+}
